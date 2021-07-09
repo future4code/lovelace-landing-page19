@@ -10,6 +10,7 @@
 html {
     --laranja-escuro: #ff914d;
     --laranja-claro: #ffbd59;
+    font-size: 6.25%;
 }
 
 a{
@@ -20,24 +21,24 @@ a:active {
     color: white;
     text-decoration: none;
 }
-
+/* --------------------------------------------- */
 /* Header */
 
 header {
     color: white;
     background-color: var(--laranja-escuro);
 
-    font-size: 20px;
+    font-size: 20rem;
     font-weight: bold;
     text-transform: uppercase;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 
     width: 100%;
-
-    position: fixed;
+    /*position: fixed;*/
 }
 
 .logoHeader {
@@ -46,7 +47,7 @@ header {
 }
 
 .logoHeader h2 {
-    font-size: 20px;
+    font-size: 20rem;
     text-transform: none;
 }
 
@@ -59,7 +60,8 @@ header {
 }
 
 .navHeader ul li {
-    padding: 0 30px;
+    margin-left: 15rem;
+    margin-right: 15rem;
 }
 
 .botao-nav:hover {
@@ -67,10 +69,7 @@ header {
 }
 
 /* Fim Header */
-
-
-
-
+/* --------------------------------------------- */
 /* Main */
 .quemsomos {
     background-image: url("/image/main-backgroud2.jpg");
@@ -81,10 +80,12 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .quemsomos-texto {
     color: white;
+    font-size: 18rem;
     background-color: var(--laranja-claro);
     padding: 50px;
     width: 300px;
@@ -97,6 +98,7 @@ header {
 }
 
 #formulario-cartao {
+    font-size: 16rem;
     color: white;
     background-color: var(--laranja-escuro);
     padding: 50px;
@@ -130,6 +132,7 @@ header {
 }
 
 .produtos {
+    font-size: 18rem;
     color: white;
     background-color: var(--laranja-claro);
     
@@ -138,6 +141,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .produto-cartao {
@@ -154,19 +158,15 @@ header {
 .produto-cartao:hover {
     background-color: var(--laranja-escuro);
 }
-
-
 /* Fim Main */
-
-
-
-
+/* --------------------------------------------- */
 /* Footer */
 footer {
     background-color: var(--laranja-escuro);
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .logoFooter {
@@ -179,12 +179,12 @@ footer {
 }
 
 .logoFooter h2 {
-    font-size: 20px;
+    font-size: 20rem;
 }
 
 .logotipo-social {
     width: 80px;
     padding: 0 30px 0 0 ;
 }
-
 /* Fim footer*/
+/* --------------------------------------------- */
