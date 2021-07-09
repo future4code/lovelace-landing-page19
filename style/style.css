@@ -95,7 +95,7 @@ header {
 
 .quemsomos-texto {
     color: white;
-    font-size: 30rem;
+    font-size: 26rem;
     background-color: var(--laranja-claro);
     padding: 50px;
     border-radius: 10px;
@@ -226,7 +226,7 @@ footer {
     }
  }
 
- @media screen and (min-device-width: 961px){
+ @media screen and (min-device-width: 961px) and (max-device-width: 1300px){
     .quemsomos-texto, #formulario-cartao, .produtos, .produto-cartao {
         font-size: 20rem;
         margin: 0;
