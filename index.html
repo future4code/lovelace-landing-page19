@@ -9,20 +9,76 @@
 
     <title>F4 Bank</title>
 </head>
+
 <body>
+
     <header>
         <div class="logoHeader">
             <img src="image/f4bank.png" alt="Logo F4 Bank">
+            <div>
+                <a href=""><h2>Tradição e inovação no seu bolso.</h2></a>
+            </div>            
         </div>
         <nav class="navHeader">
             <ul>
-                <a href=""><li>Quem somos</li></a>
-                <a href=""><li>Produtos</li></a>
-                <a href=""><li>Redes Sociais</li></a>
+                <a href="#quemsomos" class="botao-nav"><li>Quem somos</li></a>
+                <a href="#produtos" class="botao-nav"><li>Produtos</li></a>
+                <a href="#social" class="botao-nav"><li>Redes Sociais</li></a>
             </ul>
         </nav>
     </header>
-    
-    
+
+    <main>
+        <div class="quemsomos" id="quemsomos">
+            <div class="quemsomos-texto">
+                <h2 style="margin-bottom: 10px;">Quem Somos?</h2>
+                <p>Nós da 4Bank, somos o primeiro grande banco público brasileiro atuando agora também digitalmente! Com isso, garantimos à você toda a segurança de um banco tradicional com décadas de história no país.</p>
+            </div>
+            <div class="quemsomos-cartao">
+                <form action="" id="formulario-cartao">
+                    <h1 style="margin-bottom: 10px;">Peça seu cartão!</h1>
+                    <div>
+                        <label for="nome-usuario">Nome</label>
+                        <input type="text" name="nome-usuario">
+                    </div>
+                    <div>
+                        <label for="cpf-usuario">CPF</label>
+                        <input type="text" class="form-control cpf-mask" name="cpf-usuario" placeholder="Ex.: 000.000.000-00">
+                    </div>
+                    <button class="botao">Enviar</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="produtos" id="produtos">
+            <div class="produto-cartao">
+                <h2>Cartão Sem Taxa</h2>
+                <p>Oferecemos aos nossos clientes, cartões de crédito 100% gratuitos, sem taxa de adesão e com os menores juros do mercado.</p>
+                <a href="#" class="botao">Saiba Mais</a>
+            </div>
+            <div class="produto-cartao">
+                <h2>Conta Corrente Digital</h2>
+                <p>E que tal uma conta 100% digital, sem anuidade e com rendimentos maiores que o da poupança?</p>
+                <a href="#" class="botao">Saiba Mais</a>
+            </div>
+            
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="logoFooter">
+            <img src="image/f4bank.png" alt="Logo F4 Bank">
+            <div>
+                <a href=""><h2>Tradição e inovação no seu bolso.</h2></a>
+            </div>
+        </div>
+        <div class="logoSocial" id="social">
+            <a target="_blank" href="https://www.instagram.com/"><img src="image/instagram-logo" alt="Logo Instagram" class="logotipo-social"></a>
+            <a target="_blank" href="https://twitter.com/twitter" ><img src="image/twitter-logo" alt="Logo Twitter" class="logotipo-social"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="image/facebook-logo.png" alt="Logo facebook-logo" class="logotipo-social"></a>
+        </div>         
+    </footer>
+
 </body>
 </html>
