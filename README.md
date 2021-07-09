@@ -1,4 +1,5 @@
 # landing-page-template
+Obs.: Infelizmente, fiz contato com o membro da minha dupla enão obtive resposta, aguardei até as 22:00 e nada. Por isso, fiz o projeto individualmente.
 
 LINK SURGE
 http://4bank-matheus-alfonso.surge.sh/
