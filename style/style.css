@@ -4,11 +4,13 @@
     list-style: none;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
+    box-sizing: border-box;
 }
 
 html {
     --laranja-escuro: #ff914d;
     --laranja-claro: #ffbd59;
+    font-size: 6.25%;
 }
 
 a{
@@ -19,24 +21,38 @@ a:active {
     color: white;
     text-decoration: none;
 }
-
+/* --------------------------------------------- */
 /* Header */
 
 header {
     color: white;
     background-color: var(--laranja-escuro);
 
-    font-size: 1.4rem;
+    font-size: 20rem;
     font-weight: bold;
     text-transform: uppercase;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+
+    width: 100%;
+    /*position: fixed;*/
+}
+
+.logoHeader {
+    display: flex;
+    align-items: center;
+}
+
+.logoHeader h2 {
+    font-size: 20rem;
+    text-transform: none;
 }
 
 .logoHeader img {
-    height: 150px;
+    height: 130px;
 }
 
 .navHeader ul{
@@ -44,6 +60,131 @@ header {
 }
 
 .navHeader ul li {
-    padding: 0 30px;
+    margin-left: 15rem;
+    margin-right: 15rem;
 }
 
+.botao-nav:hover {
+    color: var(--laranja-claro)
+}
+
+/* Fim Header */
+/* --------------------------------------------- */
+/* Main */
+.quemsomos {
+    background-image: url("/image/main-backgroud2.jpg");
+    background-position: center;
+    /*background-color: var(--laranja-claro);*/
+    height: 600px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.quemsomos-texto {
+    color: white;
+    font-size: 18rem;
+    background-color: var(--laranja-claro);
+    padding: 50px;
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.quemsomos-texto:hover {
+    background-color: var(--laranja-escuro);
+}
+
+#formulario-cartao {
+    font-size: 16rem;
+    color: white;
+    background-color: var(--laranja-escuro);
+    padding: 50px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+#formulario-cartao div {
+    width: 90%;
+}
+
+#formulario-cartao div input {
+    width: 100%;
+    border-radius: 5px;
+
+}
+
+.botao {
+    color: white;
+    margin-top: 10px;
+    background-color: var(--laranja-claro);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: white;
+    color: var(--laranja-claro);
+}
+
+.produtos {
+    font-size: 18rem;
+    color: white;
+    background-color: var(--laranja-claro);
+    
+    height: 500px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.produto-cartao {
+    width: 300px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 50px;
+}
+
+.produto-cartao p {
+    margin-bottom: 25px;
+}
+
+.produto-cartao:hover {
+    background-color: var(--laranja-escuro);
+}
+/* Fim Main */
+/* --------------------------------------------- */
+/* Footer */
+footer {
+    background-color: var(--laranja-escuro);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logoFooter {
+    display: flex;
+    align-items: center;
+}
+
+.logoFooter img {
+    height: 130px;
+}
+
+.logoFooter h2 {
+    font-size: 20rem;
+}
+
+.logotipo-social {
+    width: 80px;
+    padding: 0 30px 0 0 ;
+}
+/* Fim footer*/
+/* --------------------------------------------- */
