@@ -10,4 +10,4 @@ Nós da 4Bank, somos o primeiro grande banco público brasileiro atuando agora t
 
 ![image](https://user-images.githubusercontent.com/83794289/125055158-4d755100-e07d-11eb-9d9f-2d55680be8c0.png)
 
-Desenvolvido por Matheus Alfonso.
+
