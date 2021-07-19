@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style/style.css">
+
+    <title>F4 Bank</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="logoHeader">
+            <a href="#"><img src="image/f4bank.png" alt="Logo F4 Bank"></a>
+            <div>
+                <a href=""><h2>Tradição e inovação no seu bolso.</h2></a>
+            </div>            
+        </div>
+        <nav class="navHeader">
+            <!--<ul>
+                <a href="#quemsomos" class="botao-nav"><li>Quem somos</li></a>
+                <a href="#produtos" class="botao-nav"><li>Produtos</li></a>
+                <a href="#social" class="botao-nav"><li>Redes Sociais</li></a>
+            </ul>-->
+            <div><a href="#quemsomos" class="botao-nav">Quem somos</a>  </div>
+            <div><a href="#produtos" class="botao-nav">Produtos</a></div>
+            <div><a href="#social" class="botao-nav">Redes Sociais</a></div>
+            <div><a href="#comunidade" class="botao-nav">Comunidade</a></div>
+            <div><a href="#formulario-fale-conosco" class="botao-nav">Fale Conosco</a></div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="quemsomos" id="quemsomos">
+            <div class="quemsomos-texto">
+                <h2 style="margin-bottom: 10px;">Quem Somos?</h2>
+                <p>Nós da 4Bank, somos o primeiro grande banco público brasileiro atuando agora também digitalmente! Com isso, garantimos à você toda a segurança de um banco tradicional com décadas de história no país.</p>
+            </div>
+            <div class="quemsomos-cartao">
+                <form action="" id="formulario-cartao">
+                    <h1 style="margin-bottom: 10px;">Peça seu cartão!</h1>
+                    <div>
+                        <label for="nome-usuario">Nome</label>
+                        <input type="text" name="nome-usuario" placeholder="Digite seu nome...">
+                    </div>
+                    <div>
+                        <label for="cpf-usuario">CPF</label>
+                        <input type="text" class="form-control cpf-mask" name="cpf-usuario" placeholder="Ex.: 000.000.000-00">
+                    </div>
+                    <button class="botao" id="cadastro">Enviar</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="produtos" id="produtos">
+            <div class="produto-cartao">
+                <h2>Cartão Sem Taxa</h2>
+                <p>Oferecemos aos nossos clientes, cartões de crédito 100% gratuitos, sem taxa de adesão e com os menores juros do mercado.</p>
+                <a href="#" class="botao">Saiba Mais</a>
+            </div>
+            <div class="produto-cartao">
+                <h2>Conta Corrente Digital</h2>
+                <p>E que tal uma conta 100% digital, sem anuidade e com rendimentos maiores que o da poupança?</p>
+                <a href="#" class="botao">Saiba Mais</a>
+            </div>
+            
+        </div>
+
+        <div class="comunidade" id="comunidade">
+            <div class="produto-cartao">
+                <h2>F4 Comunity</h2>
+                <p>Conheça nossa comunidade oficial F4 para você tirar duvidas e compartilhar ideias</p>
+                <a href="#" class="botao">Saiba Mais</a>
+            </div>
+        </div>
+
+        <div class="fale-conosco" id="fale-conosco" >
+            <div class="quemsomos-texto">
+                <h2 style="margin-bottom: 10px;">Fale com a gente</h2>
+                <p>0800-0000000</p>
+                <p>meajuda@f4bank.com.br</p>
+                <p>Atendimento 24h</p>
+            </div>
+
+            <div class="quemsomos-cartao">
+                <form action="" id="formulario-fale-conosco">
+                    <h1 style="margin-bottom: 10px;">Mande sua mensagem</h1>
+                    <div>
+                        <label for="nome-usuario">Nome</label>
+                        <input type="text" name="nome-usuario" placeholder="Digite seu nome...">
+                    </div>
+                    <div>
+                        <label for="email-usuario">E-Mail</label>
+                        
+                        <input type="email" placeholder="Digite seu E-mail" name="email-usuario">
+                    </div>
+                    <div>
+                        <label for="mensagem-usuario">Sua mensagem</label>
+
+                        <textarea name="mensagem-usuario" id="" cols="100" rows="5" style="display: block;" placeholder="Digite sua mensagem..."></textarea>
+                    </div>
+                    <button class="botao" id="cadastro">Enviar</button>
+                </form>
+            </div>
+        
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="logoFooter">
+            <a href=""><img src="image/f4bank.png" alt="Logo F4 Bank"></a>
+            <div>
+                <a href=""><h2>Tradição e inovação no seu bolso.</h2></a>
+            </div>
+        </div>
+        <div class="logoSocial" id="social">
+            <a target="_blank" href="https://www.instagram.com/"><img src="image\instagram-5-512.png" alt="Logo Instagram" class="logotipo-social"></a>
+            <a target="_blank" href="https://twitter.com/twitter" ><img src="image\twitter-5-512.png" alt="Logo Twitter" class="logotipo-social"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="image\facebook-5-512.png" alt="Logo facebook-logo" class="logotipo-social"></a>
+        </div>         
+    </footer>
+
+</body>
+</html>

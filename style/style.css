@@ -1,0 +1,308 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html {
+    --laranja-escuro: #ff914d;
+    --laranja-claro: #ffbd59;
+    font-size: 6.25%;
+    box-sizing: border-box;
+}
+
+a{
+    color: white;
+}
+
+a:active {
+    color: white;
+    text-decoration: none;
+}
+
+/* --------------------------------------------- */
+
+/* Header */
+header {
+    color: white;
+    background-color: var(--laranja-escuro);
+
+    font-size: 20rem;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    width: 100%;
+    position: fixed;
+}
+
+.logoHeader {
+    display: flex;
+    align-items: center;
+}
+
+.logoHeader h2 {
+    font-size: 20rem;
+    text-transform: none;
+}
+
+.logoHeader img {
+    height: 130px;
+}
+
+/*.navHeader ul{
+    display: flex;
+}
+
+.navHeader ul li {
+    margin-left: 15px;
+}*/
+.navHeader {
+    display: flex;
+}
+
+.navHeader a {
+    margin: 0 15px;
+}
+
+.botao-nav:hover {
+    color: var(--laranja-claro)
+}
+
+/* Fim Header */
+
+/* --------------------------------------------- */
+
+/* Main */
+.quemsomos {
+    background-image: url("/image/background-comunity.jpg");
+    background-position: center;
+    /*background-color: var(--laranja-claro);*/
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.quemsomos-texto {
+    color: white;
+    font-size: 26rem;
+    background-color: var(--laranja-claro);
+    padding: 50px;
+    border-radius: 10px;
+    margin-top: 50px;
+    width: 350px;
+}
+
+.quemsomos-texto:hover {
+    background-color: var(--laranja-escuro);
+}
+
+#formulario-cartao, #formulario-fale-conosco {
+    font-size: 30rem;
+    color: white;
+    background-color: var(--laranja-escuro);
+    padding: 50px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+#formulario-cartao div {
+    width: 100%;
+}
+
+#formulario-fale-conosco div {
+    width: 100%;
+}
+
+#formulario-cartao div input {
+    width: 100%;
+    border-radius: 5px;
+    height: 30px;
+}
+
+#formulario-fale-conosco div input {
+    width: 100%;
+    border-radius: 5px;
+    height: 30px;
+}
+
+#formulario-fale-conosco {
+    font-size: 30rem;
+    color: white;
+    background-color: var(--laranja-escuro);
+    padding: 50px;
+    border-radius: 10px;
+    margin-top: 50px; 
+}
+
+
+
+.botao {
+    color: white;
+    margin-top: 10px;
+    background-color: var(--laranja-claro);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: white;
+    color: var(--laranja-claro);
+}
+
+.produtos {
+    font-size: 30rem;
+    color: white;
+    background-color: var(--laranja-claro);
+    
+    height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.produto-cartao {
+    font-size: 30rem;
+    color: white;
+    width: 350px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 50px;
+}
+
+.produto-cartao p {
+    margin-bottom: 25px;
+}
+
+.produto-cartao:hover {
+    background-color: var(--laranja-escuro);
+}
+
+.comunidade {
+    background-image: url("/image/main-backgroud2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*background-color: var(--laranja-claro);*/
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.comunidade-texto {
+    color: white;
+    font-size: 26rem;
+    background-color: var(--laranja-claro);
+    padding: 50px;
+    border-radius: 10px;
+    width: 350px;
+    height: 60vh;
+}
+
+.comunidade-texto:hover {
+    background-color: var(--laranja-escuro);
+}
+
+.fale-conosco {
+    background-color: var(--laranja-claro);
+    background-position: center;
+    /*background-color: var(--laranja-claro);*/
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* Fim Main */
+
+/* --------------------------------------------- */
+
+/* Footer */
+footer {
+    background-color: var(--laranja-escuro);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    bottom: 0;
+    width: 100%;
+}
+
+.logoFooter {
+    display: flex;
+    align-items: center;
+}
+
+.logoFooter img {
+    height: 130px;
+}
+
+.logoFooter h2 {
+    font-size: 20rem;
+}
+
+.logotipo-social {
+    width: 80px;
+    padding: 0 30px 0 0 ;
+}
+
+.logotipo-social1 {
+    width: 37px;
+    margin-bottom: 6px;
+    margin-right: 44px;
+}
+/* Fim footer*/
+
+/* --------------------------------------------- */
+
+@media screen and (max-device-width: 960px) {
+    header {
+        position: static;
+    }
+
+    .quemsomos-texto, #formulario-cartao, .produtos, .produto-cartao, #formulario-fale-conosco {
+        font-size: 18rem;
+        margin: 0;
+    }
+
+    .quemsomos-texto, .quemsomos-cartao, .botao {
+        width: 100%;
+    }
+
+    #formulario-fale-conosco textarea {
+        width: 100%;
+    }
+
+    .navHeader {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+    }
+ }
+
+ @media screen and (min-device-width: 961px) and (max-device-width: 1300px){
+    .quemsomos-texto, #formulario-cartao, .produtos, .produto-cartao {
+        font-size: 20rem;
+        margin: 0;
+    }
+ }
+
